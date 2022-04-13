@@ -1,9 +1,8 @@
 bin/
 
 env
-portfolio/key.py
-
 portfolio/__pycache__
+
 *.py[cod]
 *$py.class
 portfolio/key.py
