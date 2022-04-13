@@ -1,8 +1,1 @@
-bin/
-
-env
-portfolio/__pycache__
-
-*.py[cod]
-*$py.class
-portfolio/key.py
+venv
