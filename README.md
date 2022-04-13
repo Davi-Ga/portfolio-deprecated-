@@ -1,2 +1,2 @@
 # portfolio
-Portfolio feito em Django
+Portfolio feito em Flask e Bootstrap
