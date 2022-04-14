@@ -2,6 +2,5 @@ venv/
 .env*
 !.env.example
 **/__pycache__/
-src/static/bootstrap
 package-lock.json
 package.json
