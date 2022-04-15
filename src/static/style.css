@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
+/*Configuração básica do site*/
 html,body {
   font-family: Ubuntu, Arial;
   width: 100%;
   height: 100%;
 }
 
+/*Estilização do meni lateral*/
 #header{
   position: fixed;
   top: 0;
@@ -19,6 +21,7 @@ html,body {
   z-index: 9997;
 }
 
+/*Estilização da foto de perfil*/
 #header .profile img{
   margin: 10px auto;
   display: block;
@@ -27,6 +30,7 @@ html,body {
   border-radius: 50%;
 }
 
+/*Estilização do h1*/
 #header .profile h1{
   font-size: 24px;
   margin: 0;
@@ -36,9 +40,10 @@ html,body {
   color: #fff;
 }
 
+/*Estilização dos icones dos links*/
 #header .profile .social-links a{
   font-size: 1rem;
-  background: #212431;
+  background: #8c52ff;
   color: #fff;
   padding: 0.6rem;
   margin-right: 1rem;
