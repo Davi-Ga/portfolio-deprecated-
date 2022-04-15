@@ -35,3 +35,14 @@ html,body {
   text-align: center;
   color: #fff;
 }
+
+#header .profile .social-links a{
+  font-size: 1rem;
+  background: #212431;
+  color: #fff;
+  padding: 0.6rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+  transition: 0.3s;
+  text-decoration: none;
+}
