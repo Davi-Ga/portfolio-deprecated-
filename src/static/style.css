@@ -46,3 +46,7 @@ html,body {
   transition: 0.3s;
   text-decoration: none;
 }
+
+#header .profile .social-links a:hover{
+  background: #149ddd;
+}
