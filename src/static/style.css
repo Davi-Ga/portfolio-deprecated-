@@ -15,11 +15,23 @@ html,body {
   overflow-y: auto;
   width: 300px;
   transition: all ease-in-out 0.5s;
+  padding: 0 15px;
+  z-index: 9997;
 }
 
 #header .profile img{
-  margin: 15px auto;
+  margin: 10px auto;
   display: block;
   width: 120px;
   border: 8px solid #8c52ff;
+  border-radius: 50%;
+}
+
+#header .profile h1{
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
 }
