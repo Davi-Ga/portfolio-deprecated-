@@ -86,3 +86,7 @@ html,body {
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover >a i{
   color: #8c52ff;
 }
+
+#main{
+  margin-left: 300px;
+}
