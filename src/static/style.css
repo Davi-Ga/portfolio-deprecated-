@@ -43,7 +43,7 @@ html,body {
 /*Estilização dos icones dos links.*/
 #header .profile .social-links a{
   font-size: 1rem;
-  background: #8c52ff;
+  background: #082041;
   color: #fff;
   padding: 0.6rem;
   margin-right: 1rem;
@@ -54,7 +54,7 @@ html,body {
 
 /*Mudança de cor ao passar o mouse nos links*/
 #header .profile .social-links a:hover{
-  background: #149ddd;
+  background: #8c52ff;
 }
 
 .nav-menu{
