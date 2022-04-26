@@ -17,22 +17,9 @@ services:
 
   nginx:
     image: nginx:stable-alpine
-    container_name: nginx
+    container_name: nginxflask
     restart: unless-stopped
     volumes:
       - ./nginx:/etc/nginx/conf.d
     depends_on:
       - flask
-    environment:
-      VIRTUAL_HOST: example.com
-      VIRTUAL_PORT: 8000
-      LETSENCRYPT_HOST: example.com
-    networks:
-      - default
-      - nginx-proxy
-
-  
-networks:
-  default:
-  nginx-proxy:
-    external: true
