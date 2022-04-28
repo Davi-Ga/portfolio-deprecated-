@@ -7,11 +7,7 @@ services:
       build: .
       restart: unless-stopped
       env_file:
-        - .env
-      ports:
-        - "3000:8000"
-      networks:
-        - default
+        - .env"
       volumes:
         - ./src:/app
 
@@ -21,5 +17,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./nginx:/etc/nginx/conf.d
+    ports:
+      -8000:8000
     depends_on:
       - flask
