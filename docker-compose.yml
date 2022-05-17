@@ -7,17 +7,17 @@ services:
       build: .
       restart: unless-stopped
       env_file:
-        - .env"
+        - .env
       volumes:
         - ./src:/app
 
   nginx:
     image: nginx:stable-alpine
-    container_name: nginxflask
+    container_name: nginxportfolio
     restart: unless-stopped
     volumes:
       - ./nginx:/etc/nginx/conf.d
     ports:
-      -8000:8000
+      - 8000:8000
     depends_on:
       - flask
