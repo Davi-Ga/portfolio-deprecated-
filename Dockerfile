@@ -1,12 +1,14 @@
-FROM python:3.8.13-alpine3.15
+FROM python:3.8
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+COPY requirements.txt .
+
+RUN pip install --upgrade pip && pip install --no-cache-dir --upgrade -r requirements.txt
+
 COPY ./src /app
-COPY ./requirements.txt requirements.txt
 
-EXPOSE 8080
-
-RUN pip install --no-cache-dir -r requirements.txt
-
-CMD gunicorn app:app
+CMD gunicorn app:app -b 0.0.0.0:8080
