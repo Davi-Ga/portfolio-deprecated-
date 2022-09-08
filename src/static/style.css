@@ -90,3 +90,14 @@ html,body {
 #main{
   margin-left: 300px;
 }
+
+section #inicio{
+  background: #082041;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  width: 100%;
+  height: 100vh;
+}
