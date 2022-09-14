@@ -98,7 +98,7 @@ html,body {
 }
 
 section #inicio{
-  background: #082041;
+  background-image: url("./img/bannerPrincipal.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
