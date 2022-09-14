@@ -87,8 +87,8 @@ html,body {
 
 /*Mudança de cor ao passar o mouse no icone*/
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover >a i{
-  color: rgb(131,58,180);
-  color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(249,29,253,1) 50%, rgba(252,176,69,1) 100%);
+  
+  background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(249,29,253,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 #main{
