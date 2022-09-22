@@ -144,5 +144,24 @@ i.menu-mobile{
   display: none;
   justify-content: center;
   align-items: center;
+}
 
+/* Caso o tamanho da tela seja menor que 1024px, o menu lateral será escondido e o hamburger irá aparecer */
+@media (max-width: 1024px){
+  #header{
+    left: -300px;
+  }
+  section#inicio h2{
+    font-size: 3.5rem;
+  }
+  section#subtitle{
+    font-size: 1rem;
+    margin-right: 0;
+  }
+  i.menu-mobile{
+    display: flex;
+  }
+  #main{
+    margin-left: 0;
+  }
 }
