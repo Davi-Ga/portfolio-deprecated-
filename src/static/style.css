@@ -151,16 +151,20 @@ i.menu-mobile{
   #header{
     left: -300px;
   }
+
   section#inicio h2{
     font-size: 3.5rem;
   }
-  section#subtitle{
-    font-size: 1rem;
+
+  sectino#inicio section#subtitle{
     margin-right: 0;
+    font-size: 1rem;
   }
+
   i.menu-mobile{
     display: flex;
   }
+
   #main{
     margin-left: 0;
   }
