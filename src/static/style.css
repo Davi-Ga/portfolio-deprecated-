@@ -156,7 +156,7 @@ i.menu-mobile{
     font-size: 3.5rem;
   }
 
-  section#inicio section#subtitle{
+  section#inicio span#subtitle{
     margin-right: 0;
     font-size: 1rem;
   }
