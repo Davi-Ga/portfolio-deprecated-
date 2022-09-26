@@ -122,14 +122,15 @@ section .set{
   top: 0;
   left: 0;
   pointer-events: none;
+  transform: scale(0.7) rotateY(180deg);
 
 }
 
 .set2{
-  transform: scale(2) rotateY(180deg);
+  transform: scale(0.4) rotateY(180deg);
 }
 .set3{
-  transform: scale(0.8) rotateY(180deg);
+  transform: scale(0.1) rotateY(180deg);
 }
 
 section .set div{
