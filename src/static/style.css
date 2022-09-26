@@ -242,7 +242,8 @@ section#inicio span#subtitle{
 }
 
 section#inicio div#arraste{
-  width: 4rem;
+  width: 9rem;
+  z-index: 1;
 }
 
 section#inicio div#arraste a{
