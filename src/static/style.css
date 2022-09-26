@@ -212,10 +212,6 @@ section#inicio span#subtitle{
   font-size: 1.5rem;
 }
 
-.text-shadow{
-  text-shadow: 4px 4px 10px #000;
-}
-
 section#inicio div#arraste{
   width: 9rem;
 }
