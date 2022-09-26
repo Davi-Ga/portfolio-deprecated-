@@ -173,6 +173,36 @@ section .set div:nth-child(8){
   animation: animate 15s linear infinite;
 
 }
+section .set div:nth-child(9){
+  left: 75%;
+  animation: animate 12s linear infinite;
+
+}
+section .set div:nth-child(10){
+  left: 85%;
+  animation: animate 15s linear infinite;
+
+}
+section .set div:nth-child(11){
+  left: 36%;
+  animation: animate 20s linear infinite;
+
+}
+section .set div:nth-child(12){
+  left: 25%;
+  animation: animate 15s linear infinite;
+
+}
+section .set div:nth-child(13){
+  left: 40%;
+  animation: animate 18s linear infinite;
+
+}
+section .set div:nth-child(14){
+  left: 55%;
+  animation: animate 20s linear infinite;
+
+}
 
 @keyframes animate{
   0%{
