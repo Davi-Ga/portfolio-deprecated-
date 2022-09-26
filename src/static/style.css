@@ -123,12 +123,7 @@ section .set{
   transform: scale(0.7)
 
 }
-set .set2{
-  transform: scale(0.4) rotateY(180deg);
-}
-set .set3{
-  transform: scale(0.1) rotateY(180deg);
-}
+
 
 section .set div{
   position: absolute;
