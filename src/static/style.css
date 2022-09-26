@@ -199,7 +199,7 @@ section .set div:nth-child(13){
 
 }
 section .set div:nth-child(14){
-  left: 85%;
+  left: 55%;
   animation: animate 20s linear infinite;
 
 }
