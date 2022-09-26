@@ -48,7 +48,7 @@ html,body {
 /*Estilização dos icones dos links.*/
 #header .profile .social-links a{
   font-size: 1rem;
-  background: #015958;
+  background: #008F8C;
   color: #fff;
   padding: 0.6rem;
   margin-right: 1rem;
@@ -99,8 +99,7 @@ html,body {
 }
 
 section#inicio{
-  background: rgb(15,194,192);
-  background: radial-gradient(circle, rgba(15,194,192,1) 0%, rgba(1,89,88,1) 50%, rgba(2,53,53,1) 100%);
+  background: #015958;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -210,6 +209,10 @@ section#inicio h2{
 section#inicio span#subtitle{
   margin-right: 8rem;
   font-size: 1.5rem;
+}
+
+.text-shadow{
+  text-shadow: 2px 2px 5px #000;
 }
 
 section#inicio div#arraste{
