@@ -99,7 +99,8 @@ html,body {
 }
 
 section#inicio{
-  background: radial-gradient(#0FC2C0, #008F8C);
+  background: rgb(15,194,192);
+  background: radial-gradient(circle, rgba(15,194,192,1) 0%, rgba(1,89,88,1) 50%, rgba(2,53,53,1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
