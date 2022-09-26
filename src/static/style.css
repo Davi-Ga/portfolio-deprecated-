@@ -232,7 +232,7 @@ section .set div:nth-child(14){
 }
 
 section#inicio h2{
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 section#inicio span#subtitle{
@@ -277,7 +277,7 @@ i.menu-mobile{
   }
 
   section#inicio h2{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   section#inicio span#subtitle{
