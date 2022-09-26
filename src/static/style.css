@@ -228,11 +228,13 @@ section .set div:nth-child(14){
 
 section#inicio h2{
   font-size: 4rem;
+  z-index: 1;
 }
 
 section#inicio span#subtitle{
   margin-right: 4rem;
   font-size: 1.4rem;
+  z-index: 1;
 }
 
 .text-shadow{
