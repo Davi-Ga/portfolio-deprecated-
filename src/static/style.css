@@ -99,7 +99,7 @@ html,body {
 }
 
 section#inicio{
-  background: #015958;
+  background: #6f7180;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,7 +212,7 @@ section#inicio span#subtitle{
 }
 
 .text-shadow{
-  text-shadow: 1px 1px 2.5px #000;
+  text-shadow: 2px 2px 5px #000;
 }
 
 section#inicio div#arraste{
