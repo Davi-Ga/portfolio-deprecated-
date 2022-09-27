@@ -26,12 +26,12 @@ html,body {
 
 /*Estilização da foto de perfil.*/
 #header .profile img{
-  margin: 10px auto;
+  margin: 15px auto;
   display: block;
   width: 120px;
   border-width: 8px ;
   border-style: solid;
-  border-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(249,29,253,1) 50%, rgba(252,176,69,1) 100%);
+  background: #015958;
   border-radius: 50%;
 }
 
@@ -217,7 +217,7 @@ section .set div:nth-child(14){
     transform: translateX(-20px) rotate(180deg);
   }
   100%{
-    top: 110%;
+    top: 120%;
     transform: translateX(-20px) rotate(225deg);
 
   }
