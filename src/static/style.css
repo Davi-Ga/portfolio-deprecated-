@@ -219,8 +219,12 @@ section .set div:nth-child(14){
   100%{
     top: 110%;
     transform: translateX(-20px) rotate(225deg);
-    opacity: 0;
+
   }
+}
+
+section#sobre{
+  z-index: 1;
 }
 
 section#inicio h2{
