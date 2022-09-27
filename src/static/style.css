@@ -264,6 +264,14 @@ i.menu-mobile{
   align-items: center;
 }
 
+.menu-nav-active{
+  overflow: hidden;
+}
+
+.menu-nav-active #header{
+  left: 0;
+}
+
 /* Caso o tamanho da tela seja menor que 1024px, o menu lateral será escondido e o hamburger irá aparecer */
 @media (max-width: 1024px){
   #header{
