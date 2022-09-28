@@ -214,25 +214,21 @@ section .set div:nth-child(14){
     transform: translateX(-20px) rotate(180deg);
   }
   100%{
-    top: 110%;
+    top: 120%;
     transform: translateX(-20px) rotate(225deg);
 
   }
-  110%{
-    top: 120%;
-    opacity: 0;
-    transform: translateX(20px) rotate(225deg);
-  }
+
   
 }
 
 section#sobre{
-  z-index: 1;
+  z-index: 9991;
 }
 
 section#inicio h2{
   font-size: 4rem;
-  z-index: 1;
+  z-index: 9992;
 }
 
 section#inicio span#subtitle{
