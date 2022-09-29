@@ -112,7 +112,7 @@ section .set{
   height: 100%;
   top: 0;
   left: 0;
-  cursor: pointer;
+  pointer-events: none;
   transform: scale(0.7)
 
 }
@@ -127,6 +127,7 @@ section .set div:nth-child(1){
   left: 20%;
   animation: animate 15s linear infinite;
   animation-delay: -7s;
+  cursor:pointer;
 }
 section .set div:nth-child(2){
   left: 50%;
