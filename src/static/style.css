@@ -45,9 +45,10 @@ html,body {
 
 /*Estilização dos icones dos links.*/
 #header .profile .social-links a{
-  font-size: 1rem;
-  background: #015958;
+  border-radius: 50%;
   color: #fff;
+  text-align: center;
+  background: #015958;
   padding: 0.6rem;
   margin-right: 1rem;
   border-radius: 50%;
