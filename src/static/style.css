@@ -45,15 +45,15 @@ html,body {
 
 /*Estilização dos icones dos links.*/
 #header .profile .social-links a{
-  border-radius: 50%;
-  color: #fff;
-  text-align: center;
+  font-size: 1rem;
   background: #015958;
+  color: #fff;
   padding: 0.6rem;
   margin-right: 1rem;
   border-radius: 50%;
   transition: 0.3s;
   text-decoration: none;
+  text-align: center
 }
 
 /*Mudança de cor ao passar o mouse nos links*/
