@@ -320,8 +320,11 @@ i.menu-mobile{
   background-color: #015958;
 }
 
-.section-bg p h2{
+.section-bg p{
   color: #fff;
 }
 
 
+.section-bg h2{
+  color: #fff;
+}
