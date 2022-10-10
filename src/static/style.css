@@ -317,14 +317,11 @@ i.menu-mobile{
 }
 
 .section-bg{
-  background-color: #ecfff9;
+  background-color: #015958;
 }
 
-.section-bg p{
+.section-bg p h2{
   color: #fff;
 }
 
 
-.section-bg h2{
-  color: #fff;
-}
