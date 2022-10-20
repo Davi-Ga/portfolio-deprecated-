@@ -328,3 +328,7 @@ i.menu-mobile{
 .logoapp{
   max-width: 25px;
 }
+
+#sobre h2,h3,p {
+  color: #003736
+}
