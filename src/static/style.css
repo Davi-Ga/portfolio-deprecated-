@@ -332,7 +332,8 @@ i.menu-mobile{
   max-width: 25px;
 }
 
-#sobre h2,h3,p {
+#sobre h2,h3,p, .fontcor{
   color: #003736
 }
+
 
