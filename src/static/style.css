@@ -230,15 +230,12 @@ section#inicio h2{
 }
 
 section#inicio span#subtitle{
-  margin-left: 8rem;
+  margin-left: 17.66rem;
   font-size: 1.4rem;
   z-index: 1;
   color: #003736;
 }
 
-.text-shadow{
-  text-shadow: 2px 2px 5px #000;
-}
 
 section#inicio div#arraste{
   width: 9rem;
@@ -287,7 +284,7 @@ i.menu-mobile{
   }
 
   section#inicio span#subtitle{
-    margin-right: 0;
+    margin-right: 17rem;
     font-size: 1rem;
   }
 
