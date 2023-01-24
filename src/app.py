@@ -1,5 +1,4 @@
 # Further config access https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
-
 from flask import Flask, render_template, jsonify, make_response,redirect
 import os
 
